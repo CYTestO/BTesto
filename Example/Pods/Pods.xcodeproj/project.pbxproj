@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17771F6DE60D3A5E5863221733AA5C7B /* BTesto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FED155D9D1452CAC11FDA740E7021D0 /* BTesto-dummy.m */; };
+		39C681D6C2F99E6FB8F8A8A97605A246 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		42C56B15759B6D3882219224C457B218 /* BTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47103ECB62F9708D68320BC6FC4F7503 /* BTestViewController.m */; };
+		4C31E1673ADC64D84CD39FF47DB9D47C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		50F1A6886F60FACCD51E1359A2D231E7 /* Pods-BTesto_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8389D0CAC8BB3B18BE185F4A875576 /* Pods-BTesto_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EE051796A42E0B3E75B2BF2A3602E9A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		7439DD1B371091515EA96434059990C8 /* Pods-BTesto_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 677D3B3DA52CF4E298093A7752A4C838 /* Pods-BTesto_Example-dummy.m */; };
+		7EE63253E69728FFF3AE03361A3A0863 /* BTesto-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC076769AE3D85630B0B534E4F02426E /* BTesto-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		847EED655E6C71B61B8ECFA35C61DB90 /* BTestViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8920182C307E5BBFA88C49139EC0F4CB /* BTestViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1FAA06082A84350A1A9DC1D4915E4AB /* Pods-BTesto_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B195C74713C285F706A243C5845AEB0 /* Pods-BTesto_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA4BA2D2AF7BE92CEB2984E1E4E84797 /* Pods-BTesto_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F302A7AAC173DAE869B5479717B6C2E6 /* Pods-BTesto_Tests-dummy.m */; };
+		AA8168E8F6E36D75C30FE6FC926E3FF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B292D1F3146130508FCAD863D8380A5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2551B1A87CA7BF30712F91965AEA9F71;
+			remoteInfo = BTesto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27F2DE942748D2713B1241C655A891C5 /* Pods-BTesto_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTesto_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		30404F70B3C99C1ECA557663B97F5771 /* BTesto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BTesto.framework; path = BTesto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C020E28FCF5605F73867B8A60B5AFC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41F18A8A969087495DBCC70076D2EC9F /* Pods-BTesto_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BTesto_Tests-resources.sh"; sourceTree = "<group>"; };
+		4446F77623AE10625D2B6894810ADD67 /* Pods-BTesto_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTesto_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		47103ECB62F9708D68320BC6FC4F7503 /* BTestViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BTestViewController.m; path = BTesto/Classes/BTestViewController.m; sourceTree = "<group>"; };
+		47ABB0B192128B9FB6E47E767A3A285B /* Pods-BTesto_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BTesto_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4F50C4088EF8020BDA8F2D4CC516B797 /* Pods_BTesto_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BTesto_Tests.framework; path = "Pods-BTesto_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B195C74713C285F706A243C5845AEB0 /* Pods-BTesto_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BTesto_Tests-umbrella.h"; sourceTree = "<group>"; };
+		62FF34ECBA57FBF8D189ACAADD45C2A3 /* BTesto-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTesto-prefix.pch"; sourceTree = "<group>"; };
+		677D3B3DA52CF4E298093A7752A4C838 /* Pods-BTesto_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BTesto_Example-dummy.m"; sourceTree = "<group>"; };
+		6F8389D0CAC8BB3B18BE185F4A875576 /* Pods-BTesto_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BTesto_Example-umbrella.h"; sourceTree = "<group>"; };
+		6FED155D9D1452CAC11FDA740E7021D0 /* BTesto-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BTesto-dummy.m"; sourceTree = "<group>"; };
+		79B768EF6A48829B707B78CE7949BF12 /* Pods_BTesto_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BTesto_Example.framework; path = "Pods-BTesto_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		809AEAFDF060BE64F59CC2CB620D74F0 /* Pods-BTesto_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BTesto_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		84200EDCD6F035B99928A2173C4B3B0D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88950FB80DA5C81BF93CA1EF4B691AA8 /* Pods-BTesto_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BTesto_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8920182C307E5BBFA88C49139EC0F4CB /* BTestViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BTestViewController.h; path = BTesto/Classes/BTestViewController.h; sourceTree = "<group>"; };
+		8F43AEC23A41812B1627C09E4128B41A /* Pods-BTesto_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BTesto_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		976E8BDC8B12117898FBA0A902F4A00D /* Pods-BTesto_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BTesto_Tests.modulemap"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B9D5E1D1C07F857320B29A9E91426F4F /* Pods-BTesto_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTesto_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BB8B6C8CD77847BB45BB385F40175F76 /* Pods-BTesto_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTesto_Example.release.xcconfig"; sourceTree = "<group>"; };
+		BC076769AE3D85630B0B534E4F02426E /* BTesto-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BTesto-umbrella.h"; sourceTree = "<group>"; };
+		D28265B6141E7315D0DAD6297B27925F /* Pods-BTesto_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BTesto_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D3D0186B17D76D0879BFDDBFC427AD78 /* Pods-BTesto_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BTesto_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DDEE9B71892294428D995B12AAC5C616 /* BTesto.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BTesto.modulemap; sourceTree = "<group>"; };
+		EAE774954DD7360F82026020879501C0 /* BTesto.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BTesto.xcconfig; sourceTree = "<group>"; };
+		EB5BDCB0BC996CE89FFC564257700FCC /* Pods-BTesto_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BTesto_Example-resources.sh"; sourceTree = "<group>"; };
+		F302A7AAC173DAE869B5479717B6C2E6 /* Pods-BTesto_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BTesto_Tests-dummy.m"; sourceTree = "<group>"; };
+		FACA92CFD921BF28576B893FB15C2815 /* Pods-BTesto_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BTesto_Example.modulemap"; sourceTree = "<group>"; };
+		FF477758DDA7D1AC1A96623BFADF611C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18DD74C42C0BE45C7471CD57E38C96F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE051796A42E0B3E75B2BF2A3602E9A /* Foundation.framework in Frameworks */,
+				4C31E1673ADC64D84CD39FF47DB9D47C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7922C11886207DC6F1D81389518B0B94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C681D6C2F99E6FB8F8A8A97605A246 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC34E92D9281261B1B545D5CEC0618E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8168E8F6E36D75C30FE6FC926E3FF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E29EC4E068DB87CBC08A370CD9AF449 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDEE9B71892294428D995B12AAC5C616 /* BTesto.modulemap */,
+				EAE774954DD7360F82026020879501C0 /* BTesto.xcconfig */,
+				6FED155D9D1452CAC11FDA740E7021D0 /* BTesto-dummy.m */,
+				62FF34ECBA57FBF8D189ACAADD45C2A3 /* BTesto-prefix.pch */,
+				BC076769AE3D85630B0B534E4F02426E /* BTesto-umbrella.h */,
+				FF477758DDA7D1AC1A96623BFADF611C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/BTesto";
+			sourceTree = "<group>";
+		};
+		421A73902AB677A4572BF976F3FC36A7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ADF310570197AFAE31CAD8C1C9ACA827 /* BTesto */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7A9130B6C6115C10BB2559791C158C83 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				82499915667141D0718EA21FFEE59C78 /* Pods-BTesto_Example */,
+				8BDE6A24F9E165A9DBA84182CB236E52 /* Pods-BTesto_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				421A73902AB677A4572BF976F3FC36A7 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				B846EC16C081DDB5D8BC482F50F15342 /* Products */,
+				7A9130B6C6115C10BB2559791C158C83 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		82499915667141D0718EA21FFEE59C78 /* Pods-BTesto_Example */ = {
+			isa = PBXGroup;
+			children = (
+				84200EDCD6F035B99928A2173C4B3B0D /* Info.plist */,
+				FACA92CFD921BF28576B893FB15C2815 /* Pods-BTesto_Example.modulemap */,
+				809AEAFDF060BE64F59CC2CB620D74F0 /* Pods-BTesto_Example-acknowledgements.markdown */,
+				D3D0186B17D76D0879BFDDBFC427AD78 /* Pods-BTesto_Example-acknowledgements.plist */,
+				677D3B3DA52CF4E298093A7752A4C838 /* Pods-BTesto_Example-dummy.m */,
+				88950FB80DA5C81BF93CA1EF4B691AA8 /* Pods-BTesto_Example-frameworks.sh */,
+				EB5BDCB0BC996CE89FFC564257700FCC /* Pods-BTesto_Example-resources.sh */,
+				6F8389D0CAC8BB3B18BE185F4A875576 /* Pods-BTesto_Example-umbrella.h */,
+				4446F77623AE10625D2B6894810ADD67 /* Pods-BTesto_Example.debug.xcconfig */,
+				BB8B6C8CD77847BB45BB385F40175F76 /* Pods-BTesto_Example.release.xcconfig */,
+			);
+			name = "Pods-BTesto_Example";
+			path = "Target Support Files/Pods-BTesto_Example";
+			sourceTree = "<group>";
+		};
+		8BDE6A24F9E165A9DBA84182CB236E52 /* Pods-BTesto_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				32C020E28FCF5605F73867B8A60B5AFC /* Info.plist */,
+				976E8BDC8B12117898FBA0A902F4A00D /* Pods-BTesto_Tests.modulemap */,
+				47ABB0B192128B9FB6E47E767A3A285B /* Pods-BTesto_Tests-acknowledgements.markdown */,
+				27F2DE942748D2713B1241C655A891C5 /* Pods-BTesto_Tests-acknowledgements.plist */,
+				F302A7AAC173DAE869B5479717B6C2E6 /* Pods-BTesto_Tests-dummy.m */,
+				8F43AEC23A41812B1627C09E4128B41A /* Pods-BTesto_Tests-frameworks.sh */,
+				41F18A8A969087495DBCC70076D2EC9F /* Pods-BTesto_Tests-resources.sh */,
+				5B195C74713C285F706A243C5845AEB0 /* Pods-BTesto_Tests-umbrella.h */,
+				D28265B6141E7315D0DAD6297B27925F /* Pods-BTesto_Tests.debug.xcconfig */,
+				B9D5E1D1C07F857320B29A9E91426F4F /* Pods-BTesto_Tests.release.xcconfig */,
+			);
+			name = "Pods-BTesto_Tests";
+			path = "Target Support Files/Pods-BTesto_Tests";
+			sourceTree = "<group>";
+		};
+		ADF310570197AFAE31CAD8C1C9ACA827 /* BTesto */ = {
+			isa = PBXGroup;
+			children = (
+				8920182C307E5BBFA88C49139EC0F4CB /* BTestViewController.h */,
+				47103ECB62F9708D68320BC6FC4F7503 /* BTestViewController.m */,
+				0E29EC4E068DB87CBC08A370CD9AF449 /* Support Files */,
+			);
+			name = BTesto;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B846EC16C081DDB5D8BC482F50F15342 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30404F70B3C99C1ECA557663B97F5771 /* BTesto.framework */,
+				79B768EF6A48829B707B78CE7949BF12 /* Pods_BTesto_Example.framework */,
+				4F50C4088EF8020BDA8F2D4CC516B797 /* Pods_BTesto_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8A7E79458744004AED6A213DDB0B40BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50F1A6886F60FACCD51E1359A2D231E7 /* Pods-BTesto_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2AD47E6868BE69ABE50CAD8AAE3892A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE63253E69728FFF3AE03361A3A0863 /* BTesto-umbrella.h in Headers */,
+				847EED655E6C71B61B8ECFA35C61DB90 /* BTestViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9170C36A6FB62B7BAFF8643DF19D55D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1FAA06082A84350A1A9DC1D4915E4AB /* Pods-BTesto_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2551B1A87CA7BF30712F91965AEA9F71 /* BTesto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C44F90B55FA6BE8915ABD578FCC1FA45 /* Build configuration list for PBXNativeTarget "BTesto" */;
+			buildPhases = (
+				E8F8BB7630F8E5C663BB7B65B14EC89F /* Sources */,
+				18DD74C42C0BE45C7471CD57E38C96F2 /* Frameworks */,
+				F2AD47E6868BE69ABE50CAD8AAE3892A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTesto;
+			productName = BTesto;
+			productReference = 30404F70B3C99C1ECA557663B97F5771 /* BTesto.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2923B91F75DBF04AD4E2D15266D7A5BC /* Pods-BTesto_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54CFDFBAFF98197289DA6E8253F6087F /* Build configuration list for PBXNativeTarget "Pods-BTesto_Tests" */;
+			buildPhases = (
+				278C2A9168858F36B1F61F89FEFAB30E /* Sources */,
+				CDC34E92D9281261B1B545D5CEC0618E /* Frameworks */,
+				F9170C36A6FB62B7BAFF8643DF19D55D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BTesto_Tests";
+			productName = "Pods-BTesto_Tests";
+			productReference = 4F50C4088EF8020BDA8F2D4CC516B797 /* Pods_BTesto_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		76C209B84D0705CEA6607FDBF49582E8 /* Pods-BTesto_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DF8D82D67C284DB4968500B08417268 /* Build configuration list for PBXNativeTarget "Pods-BTesto_Example" */;
+			buildPhases = (
+				0E446E6F0D082424FDBF234042ABE7B9 /* Sources */,
+				7922C11886207DC6F1D81389518B0B94 /* Frameworks */,
+				8A7E79458744004AED6A213DDB0B40BA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B42109F1002CB8F14747FAAC08EC577C /* PBXTargetDependency */,
+			);
+			name = "Pods-BTesto_Example";
+			productName = "Pods-BTesto_Example";
+			productReference = 79B768EF6A48829B707B78CE7949BF12 /* Pods_BTesto_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B846EC16C081DDB5D8BC482F50F15342 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2551B1A87CA7BF30712F91965AEA9F71 /* BTesto */,
+				76C209B84D0705CEA6607FDBF49582E8 /* Pods-BTesto_Example */,
+				2923B91F75DBF04AD4E2D15266D7A5BC /* Pods-BTesto_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E446E6F0D082424FDBF234042ABE7B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7439DD1B371091515EA96434059990C8 /* Pods-BTesto_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		278C2A9168858F36B1F61F89FEFAB30E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA4BA2D2AF7BE92CEB2984E1E4E84797 /* Pods-BTesto_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F8BB7630F8E5C663BB7B65B14EC89F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17771F6DE60D3A5E5863221733AA5C7B /* BTesto-dummy.m in Sources */,
+				42C56B15759B6D3882219224C457B218 /* BTestViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B42109F1002CB8F14747FAAC08EC577C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BTesto;
+			target = 2551B1A87CA7BF30712F91965AEA9F71 /* BTesto */;
+			targetProxy = B292D1F3146130508FCAD863D8380A5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26D933FC726DE4D8542BDFD02C23452C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9D5E1D1C07F857320B29A9E91426F4F /* Pods-BTesto_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BTesto_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BTesto_Tests/Pods-BTesto_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BTesto_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4A8F9DCE4B47A42D97C00F242EDBCFB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB8B6C8CD77847BB45BB385F40175F76 /* Pods-BTesto_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BTesto_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BTesto_Example/Pods-BTesto_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BTesto_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D19C85624D52053AFBC1580498485A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAE774954DD7360F82026020879501C0 /* BTesto.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BTesto/BTesto-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BTesto/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BTesto/BTesto.modulemap";
+				PRODUCT_NAME = BTesto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C86C9720AB8918C6A0D9326CCCF88642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4446F77623AE10625D2B6894810ADD67 /* Pods-BTesto_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BTesto_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BTesto_Example/Pods-BTesto_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BTesto_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D1FEE198F0BC59F8773B656F36362BCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D28265B6141E7315D0DAD6297B27925F /* Pods-BTesto_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BTesto_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BTesto_Tests/Pods-BTesto_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BTesto_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E2DB15E982C008AC6A1A1048D2823E29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAE774954DD7360F82026020879501C0 /* BTesto.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BTesto/BTesto-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BTesto/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BTesto/BTesto.modulemap";
+				PRODUCT_NAME = BTesto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54CFDFBAFF98197289DA6E8253F6087F /* Build configuration list for PBXNativeTarget "Pods-BTesto_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1FEE198F0BC59F8773B656F36362BCE /* Debug */,
+				26D933FC726DE4D8542BDFD02C23452C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DF8D82D67C284DB4968500B08417268 /* Build configuration list for PBXNativeTarget "Pods-BTesto_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C86C9720AB8918C6A0D9326CCCF88642 /* Debug */,
+				4A8F9DCE4B47A42D97C00F242EDBCFB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C44F90B55FA6BE8915ABD578FCC1FA45 /* Build configuration list for PBXNativeTarget "BTesto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2DB15E982C008AC6A1A1048D2823E29 /* Debug */,
+				5D19C85624D52053AFBC1580498485A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

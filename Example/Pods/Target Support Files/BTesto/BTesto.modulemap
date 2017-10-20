@@ -1,0 +1,6 @@
+framework module BTesto {
+  umbrella header "BTesto-umbrella.h"
+
+  export *
+  module * { export * }
+}
