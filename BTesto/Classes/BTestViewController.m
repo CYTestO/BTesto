@@ -1,9 +1,9 @@
 //
 //  BTestViewController.m
-//  Pods
+//  BTesto
 //
 //  Created by apple on 2017/10/20.
-//
+//  Copyright © 2017年 894054389@qq.com. All rights reserved.
 //
 
 #import "BTestViewController.h"
